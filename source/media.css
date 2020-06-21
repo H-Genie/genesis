@@ -1,0 +1,225 @@
+/*
+1366
+1024
+768
+*/
+
+
+@media only screen and (max-width:1600px) {
+
+    /* header */
+    nav {padding: 0 100px;}
+    .h3_header {font-size: 14px;}
+    
+
+    /* hero_content */
+    .hero_content {height: 80vh;}
+    .content {padding-bottom: 50px;}
+    .content_wrapper {margin: 0 60px;}
+
+    h1 {font-size: 24px; line-height: 27.84px;}
+    .title_g80 {font-size: 154px; line-height: 123.2px;}
+
+
+    /* page-links */
+    .component_container {margin: 0 100px;}
+    .list_header h3 {font-size: 18px; line-height: 18px;}
+    .list_header h1 {font-size: 36px; line-height: 36px;}
+
+    .cta_button {height: 52px;}
+    .cta_button h4 {font-size: 11px; letter-spacing: 1.1px; line-height: 22px;}
+
+
+    /* brand */
+    .brand_text {margin-left: 100px;}
+    .h6_line17 {font-size: 12px; letter-spacing: 1.2px; line-height: 13.2px;}
+    p {font-size: 14px; line-height: 21px;}
+
+
+    /* motor_show_awards */
+    .carousel_vertical {height: 720px;}
+    .cv_message_box {right: 100px;}
+    h6 {font-size: 12px; letter-spacing: 1.2px; line-height: 16.8px;}
+    .navigation_wrapper {padding: 0 100px;}
+
+
+    /* related_content */
+    .related_content {padding: 107px 100px;}
+    h2 {font-size: 18px; line-height: 27px;}
+    .h3_spacing {font-size: 12px; line-height: 14px;}
+
+
+    /* social_connect */
+    .social_link li {width: 64px; height: 64px; margin-right: 0;}
+
+
+    /* footer */
+    .main_content_wrapper {padding: 0 100px 90px;}
+    .secondary_navigation {padding: 0 100px;}
+    .disclaimer_wrapper {padding: 0 100px;}
+}
+
+
+@media only screen and (max-width:1365px) {
+
+    /* header */
+    header {height: 80px;}
+    nav {padding: 0 76px;}
+    nav >img {width: 108px; height: 23px;}
+    .gnb_container {width: calc(100% - 170px); padding-left: 25px;}
+    .gnb_container .gnb {padding-right: 40px;}
+    .gnb_container .gnb::before {right: 20px;}
+    .gnb_container .gnb::after {right: 24px;}
+    .lnb1, .lnb2, .lnb3, .lnb4, .lnb5 {top: 80px;}
+    .lnb_li {padding: 0 0 80px 0; width: calc(33.3% - 26.6667px);}
+    .lnb_li:nth-last-of-type(1) {display: none;}
+    .component_container {margin: 0 76px;}
+    
+
+    /* hero_content */
+    .hero_content {height: 70vh;}
+    .content_wrapper {margin: 0 24px;}
+    h1 {font-size: 22px; line-height: 25.52px;}
+    .title_g80 {font-size: 118px; line-height: 94.4px;}
+
+    .cta_button {width: 120px; height: 50px;}
+    .arrow {width: 8px; height: 8px;}
+    .arrow::after {left: -8px; top: -8px;}
+    .arrow:hover::before {transform: translate(8px,8px);}
+    .arrow:hover::after {transform: translate(8px,8px);}
+
+
+    /* page-links */    
+    .page_links .vehicle_wrapper {flex-wrap: wrap; padding: 0 100px;}
+    .page_links .vehicle_list {width: calc(50% - 20px);}
+    .page_links .visual_wrapper img {width: auto;}
+
+
+    /* brand */
+    .brand_text {margin-left: 76px; max-width: 260px;}
+    .brand_image {width: 56%;}
+    .brand_text .cta_button {margin-bottom: 20px;}
+
+
+    /* motor_show_awards */
+    .carousel_vertical {height: 660px;}
+    .cv_message_box {height: 400px; right: 76px;}
+    .navigation_wrapper {padding: 0 76px;}
+    .navigation_li {padding: 30px 20px 40px 0;}
+
+
+    /* related_content */
+    .related_content {padding: 107px 76px;}
+    h2 {font-size: 14px; line-height: 21px;}
+
+
+    /* social_connect */
+    .social_connect {padding: 60px 0 70px;}
+
+
+    /* footer */
+    .main_content_wrapper {padding: 0 76px 90px;}
+    .secondary_navigation {padding: 0 76px;}
+    .disclaimer_wrapper {padding: 0 76px;}
+
+    .contact_menu {width: 20%;}
+    .shopping_tools_list li {width: 39%;}
+    .shopping_tools_list li:nth-of-type(1) {width: 63%;}
+}
+
+
+@media only screen and (max-width:1023px) {
+
+    /* header */
+    header {height: 64px;}
+    nav {padding: 0 20px;}
+    .gnb_container, .signin {display: none;}
+
+    .nav_mobile {display: flex;}
+    .lnb_mobile {display: block;}
+
+
+    /* hero_content */
+    .hero_content {height: 60vh;}
+    .content {padding: 0 38px 40px;}
+
+
+    /* page-links */
+    .page_links_title {flex-direction: column; justify-content: space-between; height: 80px; padding: 50px 0; box-sizing: content-box;}
+    .page_links_title h1 {margin-right: 0;}
+
+    .component_container {margin: 0 20px;}
+    .vehicle_list:hover {background: none;}
+    #line_right {display: none;}
+    #line_bottom {display: none;}
+    #line_left {display: none;}
+    #line_top {display: none;}
+    .copy_wrapper .cta_button {opacity: 1; transform: translateY(0);}
+    .page_links .vehicle_wrapper {padding: 0 38px;}
+    .component_container .cta_button {width: 100%; max-width: none;}
+
+
+    /* brand */
+    .brand {flex-wrap: wrap; padding: 40px 20px 0;}
+    .brand_text {display: none;}
+    .brand_image {width: 100%;}
+
+    .brand_text_mobile {display: flex; margin-top: 60px;}
+
+
+    /* motor_show_awards */
+    .motor_show_awards_title {height: auto; padding: 70px 0 30px;}
+
+
+    /* related_content */
+    .related_content {padding: 107px 58px;}
+    .related_content_list p {padding-right: 0; height: auto;}
+    p {font-size: 12px; line-height: 18px;}
+
+
+    /* social_connect */
+    .social_connect {padding: 0;}
+
+
+    /* footer */
+    .main_content_wrapper {padding: 0 20px; flex-wrap: wrap; height: auto;}
+    .secondary_navigation {padding: 0; height: auto;}    
+    
+    .contact_menu {width: 100%; padding: 30px 0;}
+    .shopping_tools {display: none;}
+    .sign_in {width: 50%;  padding: 30px 0; position: relative;}
+    .sign_in::after {content: ''; width: 1px; height: 57px; position: absolute; right: 24px; top: calc(50% - 28.5px); background-color: rgba(255,255,255,0.1);}
+    .social_contact {width: 50%; padding: 30px 0;}
+
+    .h6_line18 {font-size: 11px; letter-spacing: 1.1px; line-height: 12.65px;}
+    .link_select {width: 100%; flex-wrap: wrap;}
+    .link_select p {font-family: genesis-head; display: inline-block; width: 100%; text-align: center; padding: 24px; border-bottom: 1px solid rgba(111,111,111,0.3);}
+    .link_select p:nth-of-type(1) {padding-left: 24px;}
+    .language_select {display: none;}
+
+    .mobile {display: block;}
+    .shopping_tools_mobile {display: flex;}
+    .p_footer {font-size: 11px; line-height: 16.5px;}
+    .tools_accordion {display: block;}
+    .tools_accordion p {padding: 30px 0;}
+    .link_accordion {display: block;}
+}
+
+
+@media only screen and (max-width:767px) {
+    /* hero_content */
+    .hero_content {background-image: url(../img/hero_content_m.jpg);}
+    .call-to-action {flex-direction: column;}
+    .call-to-action a {max-width: 320px; width: 320px;}
+    .call-to-action a:nth-of-type(1) {margin-bottom: 20px;}
+
+
+    /* page-links */
+    .vehicle_wrapper {justify-content: center;}
+    .page_links .vehicle_list {width: 100%; max-width: 460px;}
+
+
+    /* related_content */
+    .related_content {flex-wrap: wrap; padding: 107px 30px;}
+    .related_content_list {width: 100%; margin-bottom: 60px;}
+}

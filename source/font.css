@@ -1,0 +1,30 @@
+@font-face {font-family: genesis-head; src: url(font/genesis-head.woff2)}
+@font-face {font-family: genesis-head-light; src: url(font/genesis-head-light.woff2)}
+@font-face {font-family: genesis-text; src: url(font/genesis-text.woff2)}
+
+h1, h2, h3, h4, h5, h6, p, a {word-break: keep-all; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;}
+
+h1 {font-family: genesis-head-light; font-size: 36px; line-height: 41.76px;}
+h2 {font-family: genesis-head-light; font-size: 20px; line-height: 30px;}
+h3 {font-family: genesis-head-light; font-size: 20px; letter-spacing: 1px; line-height: 20px;}
+h4 {font-family: genesis-head; font-size: 16px; letter-spacing: 1.6px; line-height: 32px;}
+h5 {font-family: genesis-head; font-size: 16px; letter-spacing: 1px; line-height: 24px;}
+h6 {font-family: genesis-head; font-size: 16px; letter-spacing: 1.6px; line-height: 22.4px;}
+p {font-family: genesis-text; font-size: 16px; line-height: 24px;}
+
+.h1_spacing {font-family: genesis-head-light; font-size: 36px; letter-spacing: 1px; line-height: 41.76px;}
+.h3_spacing {font-family: genesis-head-light; font-size: 16px; letter-spacing: 1.6px; line-height: 18.4px;}
+.h3_header {font-family: genesis-head-light; font-size: 20px; line-height: 24px;}
+
+.h6_line18 {font-family: genesis-head; font-size: 16px; letter-spacing: 1.6px; line-height: 18.4px;}
+.h6_line17 {font-family: genesis-head; font-size: 16px; letter-spacing: 1.6px; line-height: 17.6px;}
+.h6_lnb_m {font-family: genesis-head; font-size: 14px; letter-spacing: 1px; line-height: 24px;}
+.h6_small {font-family: genesis-head; font-size: 13px; letter-spacing: 2px; line-height: 24px;}
+.h6_smaller {font-family: genesis-head; font-size: 13px; letter-spacing: 1.3px; line-height: 14.95px;}
+.h6_snb {font-family: genesis-head; font-size: 10px; letter-spacing: 1px; line-height: 24px;}
+
+.p_footer {font-family: genesis-text; font-size: 16px; letter-spacing: 1.1px; line-height: 19.2px;}
+.p_small {font-family: genesis-text; font-size: 14px; letter-spacing: 1.4px; line-height: 16.1px;}
+
+.title_g80 {font-family: genesis-head-light; font-size: 220px; line-height: 176px; margin: 10px 0 0 -4px;}
+.title_component {font-family: genesis-head-light; font-size: 52px; line-height: 52px;}
