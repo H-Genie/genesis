@@ -110,3 +110,15 @@ function backLnb(a) {
     
     document.getElementsByClassName('lnb_mobile')[0].style="left:0; height:calc(100vh - 64px);  transition:left 0.5s;";    
 }
+
+
+// Mobile : MOTOR SHOW & AWARDS
+function mobileNav(a) {
+    document.getElementsByClassName('show_mobile')[0].style="top:0;";
+    document.getElementsByClassName('show_mobile_carousel')[a].style="display:block;";
+}
+
+function exitMobileNav(a) {
+    document.getElementsByClassName('show_mobile')[0].style.top="";
+    document.getElementsByClassName('show_mobile_carousel')[a].style="display:none;";
+}
