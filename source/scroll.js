@@ -1,5 +1,6 @@
 window.onload = function() {
-    document.getElementsByClassName('hero_content')[0].style="background-size:100% 100%; opacity:1; transition:all 1s;";
+    document.getElementsByClassName('hero_content')[0].style="background-size:100%; opacity:1; transition:all 1s;";
+    
     document.getElementsByClassName('title')[0].style="transform:translateY(0); opacity:1; transition:all 1s; transition-delay:0.5s;";
     document.getElementsByClassName('call-to-action')[0].firstElementChild.style="transform:translateY(0); opacity:1; transition:all 1s; transition-delay:0.7s;";
     document.getElementsByClassName('call-to-action')[0].lastElementChild.style="transform:translateY(0); opacity:1; transition:all 1s; transition-delay:0.9s;";

@@ -208,15 +208,29 @@
 
 @media only screen and (max-width:767px) {
     /* hero_content */
-    .hero_content {background-image: url(../img/hero_content_m.jpg);}
+    .hero_content {background-image: url(../img/hero_content_m.jpg); background-position: center; height: 576px;}
     .call-to-action {flex-direction: column;}
-    .call-to-action a {max-width: 320px; width: 320px;}
+    .call-to-action a {max-width: 320px; width: auto;}
     .call-to-action a:nth-of-type(1) {margin-bottom: 20px;}
+
+
+    /* video */
+    .play_button {width: 50px; height: 50px; top: calc(50% - 25px); left: calc(50% - 25px);}
+
+
+    /* carousel */
+    .js_slide h6 {display: none;}
 
 
     /* page-links */
     .vehicle_wrapper {justify-content: center;}
+    .page_links .visual_wrapper img {width: 100%;}
     .page_links .vehicle_list {width: 100%; max-width: 460px;}
+    
+
+    /* motor_show_awards */
+    .carousel_vertical {display: none;}
+    
 
 
     /* related_content */
