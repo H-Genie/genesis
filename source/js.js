@@ -117,7 +117,7 @@ function backLnb(a) {
 // Mobile : MOTOR SHOW & AWARDS
 function mobileNav(a) {
     document.getElementsByClassName('show_mobile')[0].style="top:0;";
-    document.getElementsByClassName('show_mobile_carousel')[a].style="display:block;";
+    document.getElementsByClassName('show_mobile_carousel')[a].style="display:flex;";
 }
 
 function exitMobileNav(a) {
