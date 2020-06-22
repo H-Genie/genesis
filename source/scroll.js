@@ -18,7 +18,7 @@ function moveVideo() {
 
 var autoPlayed = 0;
 window.onscroll = function() {    
-    var height = window.innerHeight/2
+    var height = window.innerHeight * 0.8
     var scroll = window.pageYOffset;
         
     if (scroll >= document.getElementsByClassName('carousel')[0].offsetTop - height) {

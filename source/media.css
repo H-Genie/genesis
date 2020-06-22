@@ -230,8 +230,8 @@
 
     /* motor_show_awards */
     .carousel_vertical {display: none;}
+    .motor_show_awards_mobile {display: block;}
     
-
 
     /* related_content */
     .related_content {flex-wrap: wrap; padding: 107px 30px;}
