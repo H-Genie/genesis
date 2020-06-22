@@ -209,8 +209,9 @@
 @media only screen and (max-width:767px) {
     /* hero_content */
     .hero_content {background-image: url(../img/hero_content_m.jpg); background-position: center; height: 576px;}
+    .content {padding: 0 24px 40px;}
     .call-to-action {flex-direction: column;}
-    .call-to-action a {max-width: 320px; width: auto;}
+    .call-to-action a {max-width: 320px; width: 100%; margin-right: 0;}
     .call-to-action a:nth-of-type(1) {margin-bottom: 20px;}
 
 

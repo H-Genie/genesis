@@ -74,6 +74,7 @@ function mobileLnb() {
         document.getElementById('button1').style="transform:rotate(-45deg); top:50%; transition:all 0.15s linear";
         document.getElementById('button2').style="display:none;";
         document.getElementById('button3').style="transform:rotate(45deg); top:50%; transition:all 0.15s linear;";
+        document.querySelector('body').style="overflow-y:hidden;";
         lnb_state=1;
     }    
 
@@ -86,6 +87,7 @@ function mobileLnb() {
         document.getElementById('button1').style="transform:rotate(0deg); top:10%; transition:all 0.15s linear";
         document.getElementById('button2').style="display:block;";
         document.getElementById('button3').style="transform:rotate(0deg); top:90%; transition:all 0.15s linear;";
+        document.querySelector('body').style="overflow-y:visible;";
 
         setTimeout(function() {
             for (i=0; i<document.getElementsByClassName('snb').length; i++) 
